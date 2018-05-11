@@ -1,0 +1,68 @@
+body
+{
+    height:100vh;
+    margin: 0;
+    padding:0;
+}
+.font{font-family: 'Press Start 2P';}
+.fs14{font-size: 14px;}
+.lineh12{line-height: 1.2;}
+
+#proposition
+{
+    margin: 1em;
+    height: 2em;
+    padding-left: 0.5em;
+}
+
+.ajust
+{
+    position:absolute;
+    top:250px;
+}
+
+#bouton {height: 2em;
+display: block;}
+
+#resultat {
+    display: inline;
+    line-height: 2em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    color: rgba(153, 0, 0, 1);
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.mEspaceA{margin: 0 15px;}
+
+.d-flex
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    margin: auto;
+    background: url('background.png');
+    background-size: cover;
+}
+
+.main
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    border: 1px solid gray;
+    text-align: center;
+    height:70%;
+    width:40%;
+}
+
+.phrase
+{
+    display: block;
+}
+
+.hide{visibility: hidden;}
+.text-white{color: white;}

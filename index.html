@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <title>Plus ou moins</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <script src="script.js"></script>
+</head>
+<body onload="initTimer()">
+    <div class="d-flex font fs14" id="effetBackground">
+            
+        <div class="main" id="effetBack2">
+            <p class="text-white lineh12 mEspaceA" id="intro">Il n'y a pas de temps pour expliquer ce qu'il se passe mais vous êtes notre dernier espoir <br>Tout ce que nous savons c'est que vous êtes le seul capable de trouver <br> la combinaison secrète qui est comprise entre 1 et 100, sans quoi Internet cessera de fonctionner dans <span id="decompte">120 secondes</span>
+            </p>
+
+            <img id="etoile" class="hide" src="etoile.png" alt="étoile">
+            <img id="moins" class="hide" src="moins1.png" alt="moins">
+            <img id="plus" class="hide" src="plus1.png" alt="plus">
+
+            <div>              
+                <input type="number" min="0" max="100" step="1" id="proposition" placeholder="Saisir un nombre" />
+            </div>
+
+            <p class="phrase text-white lineh12 mEspaceA" id="resultat"></p>
+
+            <p><a href="#" id="reloadpage" class="hide" onClick="window.location.reload(true);return false;">Oh..</a></p>
+        </div>   
+    </div>
+</body> 
+</html>
